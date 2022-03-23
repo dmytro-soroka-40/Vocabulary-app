@@ -1,0 +1,136 @@
+body {
+  background-color: #e5e5e5;
+  font-family: 'Montserrat', 'Tahoma', sans-serif;
+}
+
+.vocabulary {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.vocabulary__title {
+  margin: 100px 0 70px;
+
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 46px;
+
+  color: #000000;
+}
+
+.inputs {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 60px;
+}
+
+.inputs__item {
+  max-width: 255px;
+  margin-right: 40px;
+}
+
+.inputs__title {
+  margin-bottom: 30px;
+
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+.inputs__input {
+  width: 100%;
+  height: 56px;
+  padding-left: 18px;
+
+  font-size: 16px;
+  line-height: 20px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  border: none;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.inputs__input.error {
+  border: 1px solid red !important;
+}
+
+.inputs__btn-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 141px;
+  height: 56px;
+
+  font-size: 16px;
+  line-height: 20px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  border: none;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.7);
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.inputs__btn-add:hover {
+  background: rgba(255, 255, 255, 0.447);
+}
+
+.vocabulary__subtitle {
+  margin: 0 0 60px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+.vocabulary__table {
+  width: 300px;
+}
+
+.vocabulary__table tr {
+  position: relative;
+}
+
+.vocabulary__btn-delete {
+  width: 12px;
+  height: 12px;
+
+  background: url(../img/btn_delete.svg) no-repeat center center / cover;
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+.vocabulary__word-eng {
+  align-self: center;
+  margin: 40px 0px;
+
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 43px;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+
+.vocabulary__word-ua {
+  align-self: center;
+  margin: 40px 0px;
+
+  font-weight: lighter;
+  font-size: 35px;
+  line-height: 43px;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
